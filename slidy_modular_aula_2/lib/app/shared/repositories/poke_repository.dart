@@ -10,7 +10,7 @@ class PokeRepository {
 
   Future<List<PokemonModel>> getAllPokemons() async {
     var response = await dio.get('/pokemon');
-    List<PokemonModel> list;
+    List<PokemonModel> list = List<PokemonModel>();
     for (var json in (response.data['results'] as List)) {
       PokemonModel  model = PokemonModel(json['name']);
       list.add(model);
