@@ -5,12 +5,12 @@ class AppWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Slidy Modular Aula 2',
+      navigatorKey: Modular.navigatorKey,
+      title: 'Flutter Slidy',
       theme: ThemeData(
-        primarySwatch: Colors.red
+        primarySwatch: Colors.blue,
       ),
       initialRoute: '/',
-      navigatorKey: Modular.navigatorKey,
       onGenerateRoute: Modular.generateRoute,
     );
   }
