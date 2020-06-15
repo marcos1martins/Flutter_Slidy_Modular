@@ -1,0 +1,4 @@
+lib/app/pages/splash/splash_page.dart
+test/app/pages/splash/splash_page_test.dart
+lib/app/pages/splash/splash_controller.dart
+test/app/pages/splash/splash_controller_test.dart
