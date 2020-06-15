@@ -1,3 +1,4 @@
+import 'package:slidy_modular_aula_4/app/modules/login/login_module.dart';
 import 'package:slidy_modular_aula_4/app/pages/splash/splash_page.dart';
 
 import 'pages/splash/splash_controller.dart';
@@ -21,6 +22,7 @@ class AppModule extends MainModule {
   @override
   List<Router> get routers => [
         Router('/', child: (_, args) => SplashPage()),
+        Router('/login', module: LoginModule()),
         Router('/home', module: HomeModule()),
       ];
 
