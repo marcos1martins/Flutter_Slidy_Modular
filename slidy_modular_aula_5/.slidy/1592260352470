@@ -1,0 +1,2 @@
+lib/app/modules/home/components/item/item_widget.dart
+test/app/modules/home/components/item/item_widget_test.dart
